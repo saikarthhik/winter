@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;    
+    padding: 0px;
+    background-color: black;
+    padding: 15px ;
+  }
+
+  .covid{
+    width: 50vw;
+    height: 50px;
+    color: black;
+    background-color: #d4a373;
+    border : solid black 2px;
+    border-radius: 5rem;
+    border: 3px solid black;
+    position: relative;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    transition: transform .4s;
+ 
+
+}
+
+@keyframes color {
+    0%   {background-color: #d4a373;}
+    100% {background-color: #fefae0;}
+  }
+  
+
+.covid:hover{
+    animation-name: color;
+    animation-duration: 1s;
+    color: black;
+    font-weight: bold;
+    transform: scale(1.2); 
+}
+
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
