@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  color: black;
+  /* background-image: url('./whitebg.jpg'); */
+  /* background-color: wheat; */
+  padding: 0px;
+}
+
+
+/* The element to apply the animation to */
+
+footer {
+  background-color: deepskyblue;
+  width: 100%;
+  position: relative;
+  border-radius: 5px;
+  text-align: center;
+  bottom: 0px;
+}
+
+.navBar{
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+#searchText {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 10px 5px 5px 5px;
+
+}
+.searchButton {
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px 5px 5px 5px;
+  
+}
+
+
+.bodyBoxFlex {
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: white;
+  border: 5px;
+  
+  border-radius: 10px;
+  border-style: solid;
+
+}
+.flexClassForDivs {
+    padding: 10px;
+  width: 30vw;
+  height: auto;
+  border: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  border-style: solid;
+/* background-image: url('./bg.jpg'); */
+ 
+}
