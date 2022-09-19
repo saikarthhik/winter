@@ -7,7 +7,7 @@ console.log(bodyBlock,searchButton);
 
 
 box = (x) => {
-    return `<div id = ${x.loc} class="flexClassForDivs">
+    return `<div style="min-width:161px" id = ${x.loc} class="flexClassForDivs">
     <h3>${x.loc}<h3>
     <h6 >Confirmed Cases : ${x.confirmedCasesIndian}</h6>
     <h6>Deaths : ${x.deaths}</h6>
