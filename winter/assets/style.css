@@ -14,7 +14,7 @@
     border-radius: 5rem;
     border: 3px solid black;
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -58,8 +58,8 @@
 
 
   footer {
+    transition: transform .1s ease-in-out;
     background-color: deepskyblue;
-    
     border-radius: 5px;
     text-align: center;
     bottom: 50px;
@@ -67,5 +67,19 @@
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 70vh;
+    margin-top: 65vh;
+}
+
+footer:hover{
+  animation-name: footcolor;
+  animation-duration: 2s;
+  color: black;
+  font-weight: bold;
+  transform: scale(1.2); 
+}
+
+
+@keyframes footcolor {
+  0%   {background-color: deepskyblue;}
+  100% {background-color: #ffc8dd;}
 }
