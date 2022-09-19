@@ -6,7 +6,7 @@
   }
 
   .covid{
-    width: 50vw;
+    width: 75vw;
     height: 50px;
     color: black;
     background-color: #d4a373;
@@ -55,3 +55,17 @@
   a:active {
     text-decoration: none;
   }
+
+
+  footer {
+    background-color: deepskyblue;
+    
+    border-radius: 5px;
+    text-align: center;
+    bottom: 50px;
+    width: 80vw;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70vh;
+}
